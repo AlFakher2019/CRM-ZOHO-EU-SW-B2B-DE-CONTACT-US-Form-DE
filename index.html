@@ -249,5 +249,18 @@
         var zf_MandArray = ["Name_Last", "Email", "Dropdown", "SingleLine1"];
         var zf_FieldArray = ["Name_First", "Name_Last", "SingleLine", "PhoneNumber_countrycode", "Email", "Dropdown", "SingleLine1", "MultiLine"];
         var isSalesIQIntegrationEnabled = false;
-        var salesIQFieldsArray = [];</script>
+        var salesIQFieldsArray = [];
+        
+        window.addEventListener('message', function (event) {
+                const email = event.data;
+
+             if (typeof email === "string" && email.includes("@")) {
+                const emailInput = document.forms["form"]["Email"];
+                    if (emailInput) {
+                   emailInput.value = email;
+             }
+            }
+          });
+        
+        </script>
 </body>
