@@ -182,13 +182,13 @@ ul {
 .zf-tempContDiv textarea,
 .zf-tempContDiv .zf-pdfTextArea {
   background: #fff;
-  border: 1px solid rgba(184, 187, 211, 1);
+  border: 1px solid #9C9EA3;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
-  border-radius: 4px;
+  border-radius: 6px;
   padding: 5px;
   font-size: 15px;
-  color: rgb(37, 44, 62);
+  color:#101114;
   padding: 11px 10px 10px 10px;
   height: 56px;
   transition: 0.3s;
@@ -307,9 +307,9 @@ ul {
 .zf-form-sBox {
   padding: 9px 10px 10px 5px;
   background: #fff;
-  border: 1px solid rgba(184, 187, 211, 1);
-  border-radius: 4px;
-  font-size: 16px;
+  border: 1px solid #9C9EA3;
+  border-radius: 6px;
+  font-size: 14px;
   height: 56px;
   transition: 0.3s;
   vertical-align: middle;
