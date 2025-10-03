@@ -241,6 +241,7 @@
         <script>
   document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener("message", function (event) {
+    console.log("Message received from iframe:", event.data);
       var email = event.data;
       document.getElementById("Email").value = email;
 
